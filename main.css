@@ -1,0 +1,60 @@
+body {
+	background-image:url('back.jpg');
+	background-size: cover;
+}
+
+#nav {
+	text-transform: uppercase;
+	text-align: center;
+}
+
+#nav ul {
+	display: inline-block;
+}
+
+#nav li {
+	list-style: none;
+	display: inline;
+}
+#nav a {
+	background: transparent;
+	text-decoration: none;
+	color: yellow;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 5px;
+	padding-bottom: 3px;
+	margin: 10px;
+}
+
+#nav a:hover {
+	background: blue;
+	border-radius: 8px;
+	
+}
+
+#nav a.active {
+	background: yellow;
+	color: blue;
+	border-radius: 8px;
+	font-weight: bold;
+}
+
+#nav ul li.recdrop {
+	display: inline-block;
+}
+
+#nav .recdropcnt {
+	display:none;
+	position: absolute;
+	background-color: transparent;
+}
+
+#nav .recdropcnt a {
+	display: block;
+	text-decoration: none;
+}
+
+#nav .recdrop:hover .recdropcnt {
+	display: block;
+}
