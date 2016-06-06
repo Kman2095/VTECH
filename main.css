@@ -30,7 +30,8 @@ body {
 #nav a:hover {
 	background: blue;
 	border-radius: 8px;
-	
+	transition-duration: 0.6s;
+	-webkit-transition-duration: 0.6s;
 }
 
 #nav a.active {
