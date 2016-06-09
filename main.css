@@ -78,3 +78,7 @@ body {
 	color: blue;
 	border: 2px solid blue;
 }
+
+#reclink img {
+	box-shadow: 10px black;
+}
