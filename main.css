@@ -77,8 +77,9 @@ body {
 	background-color: yellow;
 	color: blue;
 	border: 2px solid blue;
+	box-shadow: 5px blue
 }
 
 #reclink img {
-	box-shadow: 10px black;
+	box-shadow: 10px blue;
 }
